@@ -1,11 +1,11 @@
 <?php
 
-namespace Mollie\Api\Endpoints;
+namespace Coe\Mollie\Api\Endpoints;
 
-use Mollie\Api\Resources\Method;
-use Mollie\Api\Resources\MethodCollection;
-use Mollie\Api\Resources\Profile;
-use Mollie\Api\Resources\ResourceFactory;
+use Coe\Mollie\Api\Resources\Method;
+use Coe\Mollie\Api\Resources\MethodCollection;
+use Coe\Mollie\Api\Resources\Profile;
+use Coe\Mollie\Api\Resources\ResourceFactory;
 
 class ProfileMethodEndpoint extends CollectionEndpointAbstract
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace Tests\Mollie\API\Resources;
+namespace Tests\Coe\Mollie\API\Resources;
 
-use Mollie\Api\MollieApiClient;
-use Mollie\Api\Resources\Onboarding;
-use Mollie\Api\Types\OnboardingStatus;
+use Coe\Mollie\Api\MollieApiClient;
+use Coe\Mollie\Api\Resources\Onboarding;
+use Coe\Mollie\Api\Types\OnboardingStatus;
 
 class OnboardingTest extends \PHPUnit\Framework\TestCase
 {

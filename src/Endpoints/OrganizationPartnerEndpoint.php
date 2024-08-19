@@ -1,11 +1,11 @@
 <?php
 
-namespace Mollie\Api\Endpoints;
+namespace Coe\Mollie\Api\Endpoints;
 
-use Mollie\Api\Exceptions\ApiException;
-use Mollie\Api\Resources\BaseResource;
-use Mollie\Api\Resources\Partner;
-use Mollie\Api\Resources\ResourceFactory;
+use Coe\Mollie\Api\Exceptions\ApiException;
+use Coe\Mollie\Api\Resources\BaseResource;
+use Coe\Mollie\Api\Resources\Partner;
+use Coe\Mollie\Api\Resources\ResourceFactory;
 
 class OrganizationPartnerEndpoint extends EndpointAbstract
 {

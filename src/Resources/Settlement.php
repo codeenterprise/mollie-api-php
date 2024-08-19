@@ -1,9 +1,9 @@
 <?php
 
-namespace Mollie\Api\Resources;
+namespace Coe\Mollie\Api\Resources;
 
-use Mollie\Api\Exceptions\ApiException;
-use Mollie\Api\Types\SettlementStatus;
+use Coe\Mollie\Api\Exceptions\ApiException;
+use Coe\Mollie\Api\Types\SettlementStatus;
 
 class Settlement extends BaseResource
 {

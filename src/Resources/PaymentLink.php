@@ -1,6 +1,6 @@
 <?php
 
-namespace Mollie\Api\Resources;
+namespace Coe\Mollie\Api\Resources;
 
 class PaymentLink extends BaseResource
 {
@@ -156,24 +156,6 @@ class PaymentLink extends BaseResource
         ]);
 
         return $this->client->paymentLinks->update($this->id, $data);
-    }
-
-    /**
-     * Retrieve a paginated list of payments associated with this payment link.
-     *
-     * @param string|null $from
-     * @param int|null $limit
-     * @param array $filters
-     * @return mixed|\Mollie\Api\Resources\BaseCollection
-     */
-    public function payments(string $from = null, int $limit = null, array $filters = [])
-    {
-        return $this->client->paymentLinkPayments->pageFor(
-            $this,
-            $from,
-            $limit,
-            $this->withPresetOptions($filters)
-        );
     }
 
     /**

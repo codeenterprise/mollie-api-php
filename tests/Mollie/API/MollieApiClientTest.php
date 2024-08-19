@@ -1,17 +1,17 @@
 <?php
 
-namespace Tests\Mollie\Api;
+namespace Tests\Coe\Mollie\Api;
 
 use Eloquent\Liberator\Liberator;
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
 use GuzzleHttp\Psr7\Response;
-use Mollie\Api\Exceptions\ApiException;
-use Mollie\Api\Exceptions\HttpAdapterDoesNotSupportDebuggingException;
-use Mollie\Api\HttpAdapter\CurlMollieHttpAdapter;
-use Mollie\Api\HttpAdapter\Guzzle6And7MollieHttpAdapter;
-use Mollie\Api\Idempotency\FakeIdempotencyKeyGenerator;
-use Mollie\Api\MollieApiClient;
+use Coe\Mollie\Api\Exceptions\ApiException;
+use Coe\Mollie\Api\Exceptions\HttpAdapterDoesNotSupportDebuggingException;
+use Coe\Mollie\Api\HttpAdapter\CurlMollieHttpAdapter;
+use Coe\Mollie\Api\HttpAdapter\Guzzle6And7MollieHttpAdapter;
+use Coe\Mollie\Api\Idempotency\FakeIdempotencyKeyGenerator;
+use Coe\Mollie\Api\MollieApiClient;
 use Tests\Mollie\TestHelpers\FakeHttpAdapter;
 
 class MollieApiClientTest extends \PHPUnit\Framework\TestCase

@@ -1,13 +1,13 @@
 <?php
 
-namespace Tests\Mollie\Api\Endpoints;
+namespace Tests\Coe\Mollie\Api\Endpoints;
 
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;
-use Mollie\Api\Resources\Customer;
-use Mollie\Api\Resources\Subscription;
-use Mollie\Api\Resources\SubscriptionCollection;
-use Mollie\Api\Types\SubscriptionStatus;
+use Coe\Mollie\Api\Resources\Customer;
+use Coe\Mollie\Api\Resources\Subscription;
+use Coe\Mollie\Api\Resources\SubscriptionCollection;
+use Coe\Mollie\Api\Types\SubscriptionStatus;
 
 class SubscriptionEndpointTest extends BaseEndpointTest
 {

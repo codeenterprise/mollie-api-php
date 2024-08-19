@@ -1,15 +1,15 @@
 <?php
 
-namespace Tests\Mollie\Api\Endpoints;
+namespace Tests\Coe\Mollie\Api\Endpoints;
 
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;
-use Mollie\Api\Resources\Order;
-use Mollie\Api\Resources\Payment;
-use Mollie\Api\Types\OrderStatus;
-use Mollie\Api\Types\PaymentMethod;
-use Mollie\Api\Types\PaymentStatus;
-use Mollie\Api\Types\SequenceType;
+use Coe\Mollie\Api\Resources\Order;
+use Coe\Mollie\Api\Resources\Payment;
+use Coe\Mollie\Api\Types\OrderStatus;
+use Coe\Mollie\Api\Types\PaymentMethod;
+use Coe\Mollie\Api\Types\PaymentStatus;
+use Coe\Mollie\Api\Types\SequenceType;
 use Tests\Mollie\TestHelpers\AmountObjectTestHelpers;
 use Tests\Mollie\TestHelpers\LinkObjectTestHelpers;
 

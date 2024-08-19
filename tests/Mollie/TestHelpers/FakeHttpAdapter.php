@@ -1,8 +1,8 @@
 <?php
 
-namespace Tests\Mollie\TestHelpers;
+namespace Tests\Coe\Mollie\TestHelpers;
 
-use Mollie\Api\HttpAdapter\MollieHttpAdapterInterface;
+use Coe\Mollie\Api\HttpAdapter\MollieHttpAdapterInterface;
 
 class FakeHttpAdapter implements MollieHttpAdapterInterface
 {

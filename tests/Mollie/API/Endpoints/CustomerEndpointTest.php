@@ -1,11 +1,11 @@
 <?php
 
-namespace Tests\Mollie\Api\Endpoints;
+namespace Tests\Coe\Mollie\Api\Endpoints;
 
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;
-use Mollie\Api\Resources\Customer;
-use Mollie\Api\Resources\CustomerCollection;
+use Coe\Mollie\Api\Resources\Customer;
+use Coe\Mollie\Api\Resources\CustomerCollection;
 
 class CustomerEndpointTest extends BaseEndpointTest
 {

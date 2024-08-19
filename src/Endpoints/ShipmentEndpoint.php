@@ -1,11 +1,11 @@
 <?php
 
-namespace Mollie\Api\Endpoints;
+namespace Coe\Mollie\Api\Endpoints;
 
-use Mollie\Api\Exceptions\ApiException;
-use Mollie\Api\Resources\Order;
-use Mollie\Api\Resources\Shipment;
-use Mollie\Api\Resources\ShipmentCollection;
+use Coe\Mollie\Api\Exceptions\ApiException;
+use Coe\Mollie\Api\Resources\Order;
+use Coe\Mollie\Api\Resources\Shipment;
+use Coe\Mollie\Api\Resources\ShipmentCollection;
 
 class ShipmentEndpoint extends CollectionEndpointAbstract
 {

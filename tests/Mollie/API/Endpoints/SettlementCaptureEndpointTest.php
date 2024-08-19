@@ -1,13 +1,13 @@
 <?php
 declare(strict_types=1);
 
-namespace Tests\Mollie\Api\Endpoints;
+namespace Tests\Coe\Mollie\Api\Endpoints;
 
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;
-use Mollie\Api\Resources\Capture;
-use Mollie\Api\Resources\CaptureCollection;
-use Mollie\Api\Resources\Settlement;
+use Coe\Mollie\Api\Resources\Capture;
+use Coe\Mollie\Api\Resources\CaptureCollection;
+use Coe\Mollie\Api\Resources\Settlement;
 
 class SettlementCaptureEndpointTest extends BaseEndpointTest
 {

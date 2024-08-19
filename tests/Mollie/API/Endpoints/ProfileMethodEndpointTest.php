@@ -1,12 +1,12 @@
 <?php
 
-namespace Tests\Mollie\Api\Endpoints;
+namespace Tests\Coe\Mollie\Api\Endpoints;
 
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;
-use Mollie\Api\Resources\CurrentProfile;
-use Mollie\Api\Resources\Method;
-use Mollie\Api\Resources\Profile;
+use Coe\Mollie\Api\Resources\CurrentProfile;
+use Coe\Mollie\Api\Resources\Method;
+use Coe\Mollie\Api\Resources\Profile;
 use Tests\Mollie\TestHelpers\LinkObjectTestHelpers;
 
 class ProfileMethodEndpointTest extends BaseEndpointTest

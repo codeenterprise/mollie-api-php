@@ -1,11 +1,11 @@
 <?php
 
-namespace Mollie\Api\Endpoints;
+namespace Coe\Mollie\Api\Endpoints;
 
-use Mollie\Api\Exceptions\ApiException;
-use Mollie\Api\Resources\LazyCollection;
-use Mollie\Api\Resources\PaymentLink;
-use Mollie\Api\Resources\PaymentLinkCollection;
+use Coe\Mollie\Api\Exceptions\ApiException;
+use Coe\Mollie\Api\Resources\LazyCollection;
+use Coe\Mollie\Api\Resources\PaymentLink;
+use Coe\Mollie\Api\Resources\PaymentLinkCollection;
 
 class PaymentLinkEndpoint extends CollectionEndpointAbstract
 {

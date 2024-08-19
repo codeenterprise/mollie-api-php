@@ -1,11 +1,11 @@
 <?php
 
-namespace Mollie\Api\HttpAdapter;
+namespace Coe\Mollie\Api\HttpAdapter;
 
 use Composer\CaBundle\CaBundle;
-use Mollie\Api\Exceptions\ApiException;
-use Mollie\Api\Exceptions\CurlConnectTimeoutException;
-use Mollie\Api\MollieApiClient;
+use Coe\Mollie\Api\Exceptions\ApiException;
+use Coe\Mollie\Api\Exceptions\CurlConnectTimeoutException;
+use Coe\Mollie\Api\MollieApiClient;
 
 final class CurlMollieHttpAdapter implements MollieHttpAdapterInterface
 {

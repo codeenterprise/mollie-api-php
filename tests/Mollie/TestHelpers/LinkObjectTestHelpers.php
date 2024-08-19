@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\Mollie\TestHelpers;
+namespace Tests\Coe\Mollie\TestHelpers;
 
 trait LinkObjectTestHelpers
 {

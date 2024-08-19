@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Tests\Mollie\Api\Endpoints;
+namespace Tests\Coe\Mollie\Api\Endpoints;
 
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;
-use Mollie\Api\Resources\Onboarding;
-use Mollie\Api\Types\OnboardingStatus;
+use Coe\Mollie\Api\Resources\Onboarding;
+use Coe\Mollie\Api\Types\OnboardingStatus;
 
 final class OnboardingEndpointTest extends BaseEndpointTest
 {

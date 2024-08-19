@@ -1,8 +1,8 @@
 <?php
 
-namespace Mollie\Api\HttpAdapter;
+namespace Coe\Mollie\Api\HttpAdapter;
 
-use Mollie\Api\Exceptions\UnrecognizedClientException;
+use Coe\Mollie\Api\Exceptions\UnrecognizedClientException;
 
 class MollieHttpAdapterPicker implements MollieHttpAdapterPickerInterface
 {

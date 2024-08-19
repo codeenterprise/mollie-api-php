@@ -1,9 +1,9 @@
 <?php
 
-namespace Mollie\Api\Resources;
+namespace Coe\Mollie\Api\Resources;
 
-use Mollie\Api\Exceptions\ApiException;
-use Mollie\Api\Types\OrderStatus;
+use Coe\Mollie\Api\Exceptions\ApiException;
+use Coe\Mollie\Api\Types\OrderStatus;
 
 class Order extends BaseResource
 {

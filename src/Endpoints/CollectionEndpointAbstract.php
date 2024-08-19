@@ -1,12 +1,12 @@
 <?php
 
-namespace Mollie\Api\Endpoints;
+namespace Coe\Mollie\Api\Endpoints;
 
-use Mollie\Api\Exceptions\ApiException;
-use Mollie\Api\Resources\BaseCollection;
-use Mollie\Api\Resources\CursorCollection;
-use Mollie\Api\Resources\LazyCollection;
-use Mollie\Api\Resources\ResourceFactory;
+use Coe\Mollie\Api\Exceptions\ApiException;
+use Coe\Mollie\Api\Resources\BaseCollection;
+use Coe\Mollie\Api\Resources\CursorCollection;
+use Coe\Mollie\Api\Resources\LazyCollection;
+use Coe\Mollie\Api\Resources\ResourceFactory;
 
 abstract class CollectionEndpointAbstract extends EndpointAbstract
 {

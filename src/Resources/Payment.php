@@ -1,11 +1,11 @@
 <?php
 
-namespace Mollie\Api\Resources;
+namespace Coe\Mollie\Api\Resources;
 
-use Mollie\Api\Exceptions\ApiException;
-use Mollie\Api\MollieApiClient;
-use Mollie\Api\Types\PaymentStatus;
-use Mollie\Api\Types\SequenceType;
+use Coe\Mollie\Api\Exceptions\ApiException;
+use Coe\Mollie\Api\MollieApiClient;
+use Coe\Mollie\Api\Types\PaymentStatus;
+use Coe\Mollie\Api\Types\SequenceType;
 
 class Payment extends BaseResource
 {

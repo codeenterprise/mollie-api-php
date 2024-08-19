@@ -1,8 +1,8 @@
 <?php
 
-namespace Mollie\Api\Endpoints;
+namespace Coe\Mollie\Api\Endpoints;
 
-use Mollie\Api\Resources\BaseResource;
+use Coe\Mollie\Api\Resources\BaseResource;
 
 class WalletEndpoint extends EndpointAbstract
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Mollie\Api\Resources;
+namespace Coe\Mollie\Api\Resources;
 
-use Mollie\Api\Types\OrderLineStatus;
-use Mollie\Api\Types\OrderLineType;
+use Coe\Mollie\Api\Types\OrderLineStatus;
+use Coe\Mollie\Api\Types\OrderLineType;
 
 class OrderLine extends BaseResource
 {

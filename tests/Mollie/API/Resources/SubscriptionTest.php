@@ -1,10 +1,10 @@
 <?php
 
-namespace Tests\Mollie\Api\Resources;
+namespace Tests\Coe\Mollie\Api\Resources;
 
-use Mollie\Api\MollieApiClient;
-use Mollie\Api\Resources\Subscription;
-use Mollie\Api\Types\SubscriptionStatus;
+use Coe\Mollie\Api\MollieApiClient;
+use Coe\Mollie\Api\Resources\Subscription;
+use Coe\Mollie\Api\Types\SubscriptionStatus;
 
 class SubscriptionTest extends \PHPUnit\Framework\TestCase
 {

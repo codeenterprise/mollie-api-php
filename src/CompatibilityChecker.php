@@ -1,8 +1,8 @@
 <?php
 
-namespace Mollie\Api;
+namespace Coe\Mollie\Api;
 
-use Mollie\Api\Exceptions\IncompatiblePlatform;
+use Coe\Mollie\Api\Exceptions\IncompatiblePlatform;
 
 class CompatibilityChecker
 {

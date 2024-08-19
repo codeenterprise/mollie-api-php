@@ -1,6 +1,6 @@
 <?php
 
-namespace Mollie\Api\Exceptions;
+namespace Coe\Mollie\Api\Exceptions;
 
 class HttpAdapterDoesNotSupportDebuggingException extends ApiException
 {

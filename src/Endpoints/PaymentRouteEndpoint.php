@@ -1,10 +1,10 @@
 <?php
 
-namespace Mollie\Api\Endpoints;
+namespace Coe\Mollie\Api\Endpoints;
 
-use Mollie\Api\Resources\Payment;
-use Mollie\Api\Resources\Route;
-use Mollie\Api\Resources\RouteCollection;
+use Coe\Mollie\Api\Resources\Payment;
+use Coe\Mollie\Api\Resources\Route;
+use Coe\Mollie\Api\Resources\RouteCollection;
 
 class PaymentRouteEndpoint extends CollectionEndpointAbstract
 {

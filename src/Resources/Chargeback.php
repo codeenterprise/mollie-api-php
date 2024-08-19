@@ -1,6 +1,6 @@
 <?php
 
-namespace Mollie\Api\Resources;
+namespace Coe\Mollie\Api\Resources;
 
 /**
  * @method Refund[]|RefundCollection all($from = null, $limit = 50, array $filters = [])

@@ -1,18 +1,18 @@
 <?php
 
-namespace Tests\Mollie\Api\Endpoints;
+namespace Tests\Coe\Mollie\Api\Endpoints;
 
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;
-use Mollie\Api\Resources\Order;
-use Mollie\Api\Resources\OrderCollection;
-use Mollie\Api\Resources\OrderLine;
-use Mollie\Api\Resources\Payment;
-use Mollie\Api\Resources\PaymentCollection;
-use Mollie\Api\Resources\Shipment;
-use Mollie\Api\Types\OrderLineStatus;
-use Mollie\Api\Types\OrderLineType;
-use Mollie\Api\Types\OrderStatus;
+use Coe\Mollie\Api\Resources\Order;
+use Coe\Mollie\Api\Resources\OrderCollection;
+use Coe\Mollie\Api\Resources\OrderLine;
+use Coe\Mollie\Api\Resources\Payment;
+use Coe\Mollie\Api\Resources\PaymentCollection;
+use Coe\Mollie\Api\Resources\Shipment;
+use Coe\Mollie\Api\Types\OrderLineStatus;
+use Coe\Mollie\Api\Types\OrderLineType;
+use Coe\Mollie\Api\Types\OrderStatus;
 use stdClass;
 use Tests\Mollie\TestHelpers\AmountObjectTestHelpers;
 use Tests\Mollie\TestHelpers\LinkObjectTestHelpers;

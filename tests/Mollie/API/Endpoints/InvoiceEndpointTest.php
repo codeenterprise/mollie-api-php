@@ -1,12 +1,12 @@
 <?php
 
-namespace Tests\Mollie\Api\Endpoints;
+namespace Tests\Coe\Mollie\Api\Endpoints;
 
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;
-use Mollie\Api\Resources\Invoice;
-use Mollie\Api\Resources\InvoiceCollection;
-use Mollie\Api\Types\InvoiceStatus;
+use Coe\Mollie\Api\Resources\Invoice;
+use Coe\Mollie\Api\Resources\InvoiceCollection;
+use Coe\Mollie\Api\Types\InvoiceStatus;
 
 class InvoiceEndpointTest extends BaseEndpointTest
 {

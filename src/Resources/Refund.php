@@ -1,9 +1,9 @@
 <?php
 
-namespace Mollie\Api\Resources;
+namespace Coe\Mollie\Api\Resources;
 
-use Mollie\Api\MollieApiClient;
-use Mollie\Api\Types\RefundStatus;
+use Coe\Mollie\Api\MollieApiClient;
+use Coe\Mollie\Api\Types\RefundStatus;
 
 class Refund extends BaseResource
 {

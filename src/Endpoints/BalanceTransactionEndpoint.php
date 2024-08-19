@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Mollie\Api\Endpoints;
+namespace Coe\Mollie\Api\Endpoints;
 
-use Mollie\Api\Resources\Balance;
-use Mollie\Api\Resources\BalanceTransaction;
-use Mollie\Api\Resources\BalanceTransactionCollection;
-use Mollie\Api\Resources\LazyCollection;
+use Coe\Mollie\Api\Resources\Balance;
+use Coe\Mollie\Api\Resources\BalanceTransaction;
+use Coe\Mollie\Api\Resources\BalanceTransactionCollection;
+use Coe\Mollie\Api\Resources\LazyCollection;
 
 class BalanceTransactionEndpoint extends CollectionEndpointAbstract
 {

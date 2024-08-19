@@ -1,6 +1,6 @@
 <?php
 
-namespace Mollie\Api\HttpAdapter;
+namespace Coe\Mollie\Api\HttpAdapter;
 
 use Composer\CaBundle\CaBundle;
 use GuzzleHttp\Client;
@@ -9,7 +9,7 @@ use GuzzleHttp\Exception\GuzzleException;
 use GuzzleHttp\HandlerStack;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions as GuzzleRequestOptions;
-use Mollie\Api\Exceptions\ApiException;
+use Coe\Mollie\Api\Exceptions\ApiException;
 use Psr\Http\Message\ResponseInterface;
 
 final class Guzzle6And7MollieHttpAdapter implements MollieHttpAdapterInterface

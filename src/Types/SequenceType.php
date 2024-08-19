@@ -1,6 +1,6 @@
 <?php
 
-namespace Mollie\Api\Types;
+namespace Coe\Mollie\Api\Types;
 
 class SequenceType
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Mollie\Api\Resources;
+namespace Coe\Mollie\Api\Resources;
 
-use Mollie\Api\Exceptions\ApiException;
+use Coe\Mollie\Api\Exceptions\ApiException;
 
 class Customer extends BaseResource
 {

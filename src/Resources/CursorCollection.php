@@ -1,9 +1,9 @@
 <?php
 
-namespace Mollie\Api\Resources;
+namespace Coe\Mollie\Api\Resources;
 
 use Generator;
-use Mollie\Api\MollieApiClient;
+use Coe\Mollie\Api\MollieApiClient;
 
 abstract class CursorCollection extends BaseCollection
 {

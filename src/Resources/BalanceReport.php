@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Mollie\Api\Resources;
+namespace Coe\Mollie\Api\Resources;
 
 class BalanceReport extends BaseResource
 {

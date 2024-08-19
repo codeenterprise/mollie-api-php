@@ -1,12 +1,12 @@
 <?php
 
-namespace Tests\Mollie\Api\Endpoints;
+namespace Tests\Coe\Mollie\Api\Endpoints;
 
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;
-use Mollie\Api\Resources\Payment;
-use Mollie\Api\Resources\Refund;
-use Mollie\Api\Resources\RefundCollection;
+use Coe\Mollie\Api\Resources\Payment;
+use Coe\Mollie\Api\Resources\Refund;
+use Coe\Mollie\Api\Resources\RefundCollection;
 use stdClass;
 
 class PaymentRefundEndpointTest extends BaseEndpointTest

@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Tests\Mollie\Api\Endpoints;
+namespace Tests\Coe\Mollie\Api\Endpoints;
 
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;
-use Mollie\Api\Resources\Balance;
-use Mollie\Api\Resources\BalanceTransaction;
-use Mollie\Api\Resources\BalanceTransactionCollection;
-use Mollie\Api\Resources\BaseCollection;
+use Coe\Mollie\Api\Resources\Balance;
+use Coe\Mollie\Api\Resources\BalanceTransaction;
+use Coe\Mollie\Api\Resources\BalanceTransactionCollection;
+use Coe\Mollie\Api\Resources\BaseCollection;
 use Tests\Mollie\TestHelpers\AmountObjectTestHelpers;
 use Tests\Mollie\TestHelpers\LinkObjectTestHelpers;
 

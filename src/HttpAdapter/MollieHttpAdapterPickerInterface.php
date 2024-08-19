@@ -1,6 +1,6 @@
 <?php
 
-namespace Mollie\Api\HttpAdapter;
+namespace Coe\Mollie\Api\HttpAdapter;
 
 interface MollieHttpAdapterPickerInterface
 {

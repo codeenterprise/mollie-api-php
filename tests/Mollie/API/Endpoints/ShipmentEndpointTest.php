@@ -1,14 +1,14 @@
 <?php
 
-namespace Tests\Mollie\Api\Endpoints;
+namespace Tests\Coe\Mollie\Api\Endpoints;
 
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;
-use Mollie\Api\Resources\Order;
-use Mollie\Api\Resources\Shipment;
-use Mollie\Api\Resources\ShipmentCollection;
-use Mollie\Api\Types\OrderLineStatus;
-use Mollie\Api\Types\OrderStatus;
+use Coe\Mollie\Api\Resources\Order;
+use Coe\Mollie\Api\Resources\Shipment;
+use Coe\Mollie\Api\Resources\ShipmentCollection;
+use Coe\Mollie\Api\Types\OrderLineStatus;
+use Coe\Mollie\Api\Types\OrderStatus;
 use Tests\Mollie\TestHelpers\AmountObjectTestHelpers;
 use Tests\Mollie\TestHelpers\LinkObjectTestHelpers;
 

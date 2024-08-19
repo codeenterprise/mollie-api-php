@@ -1,12 +1,12 @@
 <?php
 
-namespace Mollie\Api\Endpoints;
+namespace Coe\Mollie\Api\Endpoints;
 
-use Mollie\Api\Exceptions\ApiException;
-use Mollie\Api\Resources\Order;
-use Mollie\Api\Resources\OrderLine;
-use Mollie\Api\Resources\OrderLineCollection;
-use Mollie\Api\Resources\ResourceFactory;
+use Coe\Mollie\Api\Exceptions\ApiException;
+use Coe\Mollie\Api\Resources\Order;
+use Coe\Mollie\Api\Resources\OrderLine;
+use Coe\Mollie\Api\Resources\OrderLineCollection;
+use Coe\Mollie\Api\Resources\ResourceFactory;
 
 class OrderLineEndpoint extends CollectionEndpointAbstract
 {

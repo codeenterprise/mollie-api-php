@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\Mollie\API\HttpAdapter;
+namespace Tests\Coe\Mollie\API\HttpAdapter;
 
 class MockMollieHttpAdapter implements \Mollie\Api\HttpAdapter\MollieHttpAdapterInterface
 {

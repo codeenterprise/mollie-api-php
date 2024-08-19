@@ -1,12 +1,12 @@
 <?php
 
-namespace Mollie\Api\Endpoints;
+namespace Coe\Mollie\Api\Endpoints;
 
-use Mollie\Api\Exceptions\ApiException;
-use Mollie\Api\Resources\CurrentProfile;
-use Mollie\Api\Resources\LazyCollection;
-use Mollie\Api\Resources\Profile;
-use Mollie\Api\Resources\ProfileCollection;
+use Coe\Mollie\Api\Exceptions\ApiException;
+use Coe\Mollie\Api\Resources\CurrentProfile;
+use Coe\Mollie\Api\Resources\LazyCollection;
+use Coe\Mollie\Api\Resources\Profile;
+use Coe\Mollie\Api\Resources\ProfileCollection;
 
 class ProfileEndpoint extends CollectionEndpointAbstract
 {

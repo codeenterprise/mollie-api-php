@@ -1,12 +1,12 @@
 <?php
 
-namespace Tests\Mollie\Api\Endpoints;
+namespace Tests\Coe\Mollie\Api\Endpoints;
 
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;
-use Mollie\Api\Resources\Terminal;
-use Mollie\Api\Resources\TerminalCollection;
-use Mollie\Api\Types\TerminalStatus;
+use Coe\Mollie\Api\Resources\Terminal;
+use Coe\Mollie\Api\Resources\TerminalCollection;
+use Coe\Mollie\Api\Types\TerminalStatus;
 use Tests\Mollie\TestHelpers\LinkObjectTestHelpers;
 
 class TerminalEndpointTest extends BaseEndpointTest

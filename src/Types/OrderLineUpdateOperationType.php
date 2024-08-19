@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Mollie\Api\Types;
+namespace Coe\Mollie\Api\Types;
 
 class OrderLineUpdateOperationType
 {

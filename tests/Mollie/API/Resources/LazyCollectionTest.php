@@ -1,8 +1,8 @@
 <?php
 
-namespace Tests\Mollie\API\Resources;
+namespace Tests\Coe\Mollie\API\Resources;
 
-use Mollie\Api\Resources\LazyCollection;
+use Coe\Mollie\Api\Resources\LazyCollection;
 use PHPUnit\Framework\TestCase;
 
 class LazyCollectionTest extends TestCase

@@ -1,10 +1,10 @@
 <?php
 
-namespace Tests\Mollie\API\Exceptions;
+namespace Tests\Coe\Mollie\API\Exceptions;
 
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;
-use Mollie\Api\Exceptions\ApiException;
+use Coe\Mollie\Api\Exceptions\ApiException;
 use PHPUnit\Framework\TestCase;
 use Tests\Mollie\TestHelpers\LinkObjectTestHelpers;
 

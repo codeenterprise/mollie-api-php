@@ -1,10 +1,10 @@
 <?php
 
-namespace Tests\Mollie\API\Resources;
+namespace Tests\Coe\Mollie\API\Resources;
 
-use Mollie\Api\MollieApiClient;
-use Mollie\Api\Resources\LazyCollection;
-use Mollie\Api\Resources\OrderCollection;
+use Coe\Mollie\Api\MollieApiClient;
+use Coe\Mollie\Api\Resources\LazyCollection;
+use Coe\Mollie\Api\Resources\OrderCollection;
 use PHPUnit\Framework\TestCase;
 use stdClass;
 

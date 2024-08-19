@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Tests\Mollie\Api\Endpoints;
+namespace Tests\Coe\Mollie\Api\Endpoints;
 
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;
-use Mollie\Api\Resources\Balance;
-use Mollie\Api\Resources\BalanceReport;
+use Coe\Mollie\Api\Resources\Balance;
+use Coe\Mollie\Api\Resources\BalanceReport;
 use Tests\Mollie\TestHelpers\AmountObjectTestHelpers;
 use Tests\Mollie\TestHelpers\LinkObjectTestHelpers;
 

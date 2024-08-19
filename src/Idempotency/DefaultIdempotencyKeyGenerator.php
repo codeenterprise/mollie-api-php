@@ -1,7 +1,7 @@
 <?php
-namespace Mollie\Api\Idempotency;
+namespace Coe\Mollie\Api\Idempotency;
 
-use Mollie\Api\Exceptions\IncompatiblePlatform;
+use Coe\Mollie\Api\Exceptions\IncompatiblePlatform;
 
 class DefaultIdempotencyKeyGenerator implements IdempotencyKeyGeneratorContract
 {

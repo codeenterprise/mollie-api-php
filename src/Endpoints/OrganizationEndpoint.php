@@ -1,10 +1,10 @@
 <?php
 
-namespace Mollie\Api\Endpoints;
+namespace Coe\Mollie\Api\Endpoints;
 
-use Mollie\Api\Exceptions\ApiException;
-use Mollie\Api\Resources\Organization;
-use Mollie\Api\Resources\OrganizationCollection;
+use Coe\Mollie\Api\Exceptions\ApiException;
+use Coe\Mollie\Api\Resources\Organization;
+use Coe\Mollie\Api\Resources\OrganizationCollection;
 
 class OrganizationEndpoint extends CollectionEndpointAbstract
 {

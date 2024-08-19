@@ -1,8 +1,8 @@
 <?php
 
-namespace Mollie\Api\Resources;
+namespace Coe\Mollie\Api\Resources;
 
-use Mollie\Api\Types\ApprovalPrompt;
+use Coe\Mollie\Api\Types\ApprovalPrompt;
 
 class ClientLink extends BaseResource
 {

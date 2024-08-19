@@ -1,14 +1,14 @@
 <?php
 
-namespace Tests\Mollie\Api\Endpoints;
+namespace Tests\Coe\Mollie\Api\Endpoints;
 
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;
-use Mollie\Api\Resources\Customer;
-use Mollie\Api\Resources\Payment;
-use Mollie\Api\Resources\PaymentCollection;
-use Mollie\Api\Types\PaymentStatus;
-use Mollie\Api\Types\SequenceType;
+use Coe\Mollie\Api\Resources\Customer;
+use Coe\Mollie\Api\Resources\Payment;
+use Coe\Mollie\Api\Resources\PaymentCollection;
+use Coe\Mollie\Api\Types\PaymentStatus;
+use Coe\Mollie\Api\Types\SequenceType;
 use stdClass;
 
 class CustomerPaymentEndpointTest extends BaseEndpointTest

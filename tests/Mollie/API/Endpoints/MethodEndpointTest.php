@@ -1,15 +1,15 @@
 <?php
 
-namespace Tests\Mollie\Api\Endpoints;
+namespace Tests\Coe\Mollie\Api\Endpoints;
 
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;
-use Mollie\Api\Resources\Issuer;
-use Mollie\Api\Resources\IssuerCollection;
-use Mollie\Api\Resources\Method;
-use Mollie\Api\Resources\MethodCollection;
-use Mollie\Api\Resources\MethodPrice;
-use Mollie\Api\Resources\MethodPriceCollection;
+use Coe\Mollie\Api\Resources\Issuer;
+use Coe\Mollie\Api\Resources\IssuerCollection;
+use Coe\Mollie\Api\Resources\Method;
+use Coe\Mollie\Api\Resources\MethodCollection;
+use Coe\Mollie\Api\Resources\MethodPrice;
+use Coe\Mollie\Api\Resources\MethodPriceCollection;
 use stdClass;
 use Tests\Mollie\TestHelpers\AmountObjectTestHelpers;
 use Tests\Mollie\TestHelpers\LinkObjectTestHelpers;

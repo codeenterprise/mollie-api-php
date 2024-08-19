@@ -1,11 +1,11 @@
 <?php
 
-namespace Mollie\Api\Endpoints;
+namespace Coe\Mollie\Api\Endpoints;
 
-use Mollie\Api\Exceptions\ApiException;
-use Mollie\Api\Resources\Invoice;
-use Mollie\Api\Resources\InvoiceCollection;
-use Mollie\Api\Resources\LazyCollection;
+use Coe\Mollie\Api\Exceptions\ApiException;
+use Coe\Mollie\Api\Resources\Invoice;
+use Coe\Mollie\Api\Resources\InvoiceCollection;
+use Coe\Mollie\Api\Resources\LazyCollection;
 
 class InvoiceEndpoint extends CollectionEndpointAbstract
 {

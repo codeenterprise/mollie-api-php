@@ -1,11 +1,11 @@
 <?php
 
-namespace Tests\Mollie\API\Resources;
+namespace Tests\Coe\Mollie\API\Resources;
 
-use Mollie\Api\MollieApiClient;
-use Mollie\Api\Resources\Mandate;
-use Mollie\Api\Resources\MandateCollection;
-use Mollie\Api\Types\MandateStatus;
+use Coe\Mollie\Api\MollieApiClient;
+use Coe\Mollie\Api\Resources\Mandate;
+use Coe\Mollie\Api\Resources\MandateCollection;
+use Coe\Mollie\Api\Types\MandateStatus;
 use PHPUnit\Framework\TestCase;
 
 class MandateCollectionTest extends TestCase

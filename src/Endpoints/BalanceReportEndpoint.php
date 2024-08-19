@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Mollie\Api\Endpoints;
+namespace Coe\Mollie\Api\Endpoints;
 
-use Mollie\Api\Resources\Balance;
-use Mollie\Api\Resources\BalanceReport;
-use Mollie\Api\Resources\ResourceFactory;
+use Coe\Mollie\Api\Resources\Balance;
+use Coe\Mollie\Api\Resources\BalanceReport;
+use Coe\Mollie\Api\Resources\ResourceFactory;
 
 class BalanceReportEndpoint extends EndpointAbstract
 {

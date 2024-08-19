@@ -1,9 +1,9 @@
 <?php
 
-namespace Tests\Mollie\API\Types;
+namespace Tests\Coe\Mollie\API\Types;
 
-use Mollie\Api\Types\MandateMethod;
-use Mollie\Api\Types\PaymentMethod;
+use Coe\Mollie\Api\Types\MandateMethod;
+use Coe\Mollie\Api\Types\PaymentMethod;
 use PHPUnit\Framework\TestCase;
 
 class MandateMethodTest extends TestCase

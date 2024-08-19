@@ -1,5 +1,5 @@
 <?php
-namespace Mollie\Api\Idempotency;
+namespace Coe\Mollie\Api\Idempotency;
 
 interface IdempotencyKeyGeneratorContract
 {

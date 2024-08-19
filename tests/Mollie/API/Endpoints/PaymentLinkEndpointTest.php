@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Tests\Mollie\Api\Endpoints;
+namespace Tests\Coe\Mollie\Api\Endpoints;
 
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;
-use Mollie\Api\Resources\PaymentLink;
+use Coe\Mollie\Api\Resources\PaymentLink;
 
 class PaymentLinkEndpointTest extends BaseEndpointTest
 {

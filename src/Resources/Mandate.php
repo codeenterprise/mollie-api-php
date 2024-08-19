@@ -1,9 +1,9 @@
 <?php
 
-namespace Mollie\Api\Resources;
+namespace Coe\Mollie\Api\Resources;
 
-use Mollie\Api\MollieApiClient;
-use Mollie\Api\Types\MandateStatus;
+use Coe\Mollie\Api\MollieApiClient;
+use Coe\Mollie\Api\Types\MandateStatus;
 
 class Mandate extends BaseResource
 {

@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Mollie\Api\Endpoints;
+namespace Coe\Mollie\Api\Endpoints;
 
-use Mollie\Api\Resources\Capture;
-use Mollie\Api\Resources\CaptureCollection;
-use Mollie\Api\Resources\LazyCollection;
+use Coe\Mollie\Api\Resources\Capture;
+use Coe\Mollie\Api\Resources\CaptureCollection;
+use Coe\Mollie\Api\Resources\LazyCollection;
 
 class SettlementCaptureEndpoint extends CollectionEndpointAbstract
 {

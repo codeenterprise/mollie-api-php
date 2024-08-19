@@ -1,11 +1,11 @@
 <?php
 
-namespace Mollie\Api\Endpoints;
+namespace Coe\Mollie\Api\Endpoints;
 
-use Mollie\Api\Resources\LazyCollection;
-use Mollie\Api\Resources\Payment;
-use Mollie\Api\Resources\Refund;
-use Mollie\Api\Resources\RefundCollection;
+use Coe\Mollie\Api\Resources\LazyCollection;
+use Coe\Mollie\Api\Resources\Payment;
+use Coe\Mollie\Api\Resources\Refund;
+use Coe\Mollie\Api\Resources\RefundCollection;
 
 class PaymentRefundEndpoint extends CollectionEndpointAbstract
 {
@@ -78,8 +78,8 @@ class PaymentRefundEndpoint extends CollectionEndpointAbstract
      * Create an iterator for iterating over refunds for the given payment, retrieved from Mollie.
      *
      * @param Payment $payment
-     * @param string|null $from The first resource ID you want to include in your list.
-     * @param int|null $limit
+     * @param string $from The first resource ID you want to include in your list.
+     * @param int $limit
      * @param array $parameters
      * @param bool $iterateBackwards Set to true for reverse order iteration (default is false).
      *
@@ -108,8 +108,8 @@ class PaymentRefundEndpoint extends CollectionEndpointAbstract
      * Create an iterator for iterating over refunds for the given payment id, retrieved from Mollie.
      *
      * @param string $paymentId
-     * @param string|null $from The first resource ID you want to include in your list.
-     * @param int|null $limit
+     * @param string $from The first resource ID you want to include in your list.
+     * @param int $limit
      * @param array $parameters
      * @param bool $iterateBackwards Set to true for reverse order iteration (default is false).
      *

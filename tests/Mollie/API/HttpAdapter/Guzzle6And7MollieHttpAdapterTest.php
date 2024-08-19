@@ -1,13 +1,13 @@
 <?php
 
-namespace Tests\Mollie\API\HttpAdapter;
+namespace Tests\Coe\Mollie\API\HttpAdapter;
 
 use Eloquent\Liberator\Liberator;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ConnectException;
 use GuzzleHttp\Psr7\Request;
-use Mollie\Api\Exceptions\ApiException;
-use Mollie\Api\HttpAdapter\Guzzle6And7MollieHttpAdapter;
+use Coe\Mollie\Api\Exceptions\ApiException;
+use Coe\Mollie\Api\HttpAdapter\Guzzle6And7MollieHttpAdapter;
 use PHPUnit\Framework\TestCase;
 use Psr\Http\Message\RequestInterface;
 

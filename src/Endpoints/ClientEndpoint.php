@@ -1,11 +1,11 @@
 <?php
 
-namespace Mollie\Api\Endpoints;
+namespace Coe\Mollie\Api\Endpoints;
 
-use Mollie\Api\Exceptions\ApiException;
-use Mollie\Api\Resources\Client;
-use Mollie\Api\Resources\ClientCollection;
-use Mollie\Api\Resources\LazyCollection;
+use Coe\Mollie\Api\Exceptions\ApiException;
+use Coe\Mollie\Api\Resources\Client;
+use Coe\Mollie\Api\Resources\ClientCollection;
+use Coe\Mollie\Api\Resources\LazyCollection;
 
 class ClientEndpoint extends CollectionEndpointAbstract
 {
